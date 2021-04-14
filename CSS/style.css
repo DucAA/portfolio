@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
+
+.div-principal-header {
+    background-color: #1f2125;
+    width: 1076px;
+    height: 515px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-principal {
+    font-family: 'Notable', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.sub-titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
+
+.div-main {
+    background-color: #122954;
+    width: 1076px;
+    height: 515px;
+}
+
+.titulo-sobre {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: left;
+    padding: 40px 20px;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 30%;
+    width: 520px;
+    color: #FFFFFF;
+}
+
+
+.sobre-mim-Paragrafo {
+    padding-top: 15px;
+
+}
+
+.icones {
+    display: flex;
+    justify-content: center;
+}
+
+.github-icon, .linkedin-icon {
+    width: 32px;
+    height: 32px;
+    padding: 20px 10px;
+}
+
+.div-main-two {
+    background-color: #537c96;
+    width: 1076px;
+    height: 515px;
+}
+
+.titulo-habilidades {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: left;
+    padding: 40px 20px;
+    color: #FFFFFF;
+}
+
+.sobre-minhas-habilidades {
+    padding-top: 15px;
+}
+
+.icones-habilidades {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 100vh;
+}
+
+.html-icon, .css-icon, .js-icon {
+    width: 32px;
+    height: 32px;
+    padding: 20px 10px;
+    
+}
+
+.div-main-three{
+    background-color: #5e5ca1;
+    width: 1076px;
+    height: 600px;
+}
+
+.titulo-projetos {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 40px;
+    text-align: left;
+    padding: 40px 20px;
+    color: #FFFFFF;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cards-two, .cards-three, .cards-four {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    border-radius: 3%;
+    background-color: #1f2125;
+}
+
+.titulo-eb {
+    font-family: 'Notable', sans-serif;
+    text-align: center;
+    margin-top: 25%;
+    color: #FFFFFF;
+}
+
+.div-rodape {
+    background-color: #96a0ac;
+    width: 1076px;
+    height: 100px;
+}
+
+.div-rodape-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-rodape {
+    font-family: 'Notable', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    justify-content: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
+.sub-titulo-rodape {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    margin-top: 10px;
+}
