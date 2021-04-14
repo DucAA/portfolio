@@ -2,8 +2,8 @@
 
 .div-principal-header {
     background-color: #1f2125;
-    width: 1076px;
-    height: 515px;
+    width: 67.25rem;
+    height: 32.19rem;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -11,54 +11,54 @@
     align-items: center;
 }
 
-.titulo-principal {
+#titulo-principal {
     font-family: 'Notable', sans-serif;
-    font-size: 40px;
+    font-size: 2.5rem;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
 }
 
-.sub-titulo {
+#sub-titulo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
-    letter-spacing: 3px;
-    margin-top: 10px;
+    letter-spacing: 0.1875rem;
+    margin-top: 1.875rem;
 }
 
 .div-main {
     background-color: #122954;
-    width: 1076px;
-    height: 515px;
+    width: 67.25rem;
+    height: 32.19rem;
 }
 
-.titulo-sobre {
+#titulo-sobre {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 40px;
+    letter-spacing: 0.1875rem;
+    font-size: 2.5rem;
     text-align: left;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     color: #FFFFFF;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 18px;
+    font-size: 1.125rem;
     margin-left: 30%;
-    width: 520px;
+    width: 32.5rem;
     color: #FFFFFF;
 }
 
 
 .sobre-mim-Paragrafo {
-    padding-top: 15px;
+    padding-top: 0.9375rem;
 
 }
 
@@ -67,31 +67,31 @@ p {
     justify-content: center;
 }
 
-.github-icon, .linkedin-icon {
-    width: 32px;
-    height: 32px;
-    padding: 20px 10px;
+#github-icon, #linkedin-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 1.25rem 0.625rem;
 }
 
 .div-main-two {
     background-color: #537c96;
-    width: 1076px;
-    height: 515px;
+    width: 67.25rem;
+    height: 32.19rem;
 }
 
-.titulo-habilidades {
+#titulo-habilidades {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 40px;
+    letter-spacing: 0.1875rem;
+    font-size: 2.5rem;
     text-align: left;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     color: #FFFFFF;
 }
 
-.sobre-minhas-habilidades {
-    padding-top: 15px;
+#sobre-minhas-habilidades {
+    padding-top: 0.9375rem;
 }
 
 .icones-habilidades {
@@ -101,27 +101,27 @@ p {
    height: 100vh;
 }
 
-.html-icon, .css-icon, .js-icon {
-    width: 32px;
-    height: 32px;
-    padding: 20px 10px;
+#html-icon, #css-icon, #js-icon {
+    width: 2rem;
+    height: 2rem;
+    padding: 1.25rem 0.625rem;
     
 }
 
 .div-main-three{
     background-color: #5e5ca1;
-    width: 1076px;
-    height: 600px;
+    width: 67.25rem;
+    height: 37.5rem;
 }
 
-.titulo-projetos {
+#titulo-projetos {
     font-family: 'Montserrat', sans-serif;
     font-weight: 900;
     text-transform: uppercase;
-    letter-spacing: 3px;
-    font-size: 40px;
+    letter-spacing: 0.1875rem;
+    font-size: 2.5rem;
     text-align: left;
-    padding: 40px 20px;
+    padding: 2.5rem 1.25rem;
     color: #FFFFFF;
 }
 
@@ -131,15 +131,15 @@ p {
     justify-content: center;
 }
 
-.cards-two, .cards-three, .cards-four {
-    width: 350px;
-    height: 200px;
-    margin: 10px;
+.cards-projetos {
+    width: 21.88rem;
+    height: 12.5rem;
+    margin: 0.625rem;
     border-radius: 3%;
     background-color: #1f2125;
 }
 
-.titulo-eb {
+.titulo-em-breve {
     font-family: 'Notable', sans-serif;
     text-align: center;
     margin-top: 25%;
@@ -148,8 +148,8 @@ p {
 
 .div-rodape {
     background-color: #96a0ac;
-    width: 1076px;
-    height: 100px;
+    width: 67.25rem;
+    height: 6.25rem;
 }
 
 .div-rodape-two {
@@ -159,21 +159,138 @@ p {
     align-items: center;
 }
 
-.titulo-rodape {
+#titulo-rodape {
     font-family: 'Notable', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 0.1875rem;
     justify-content: center;
     text-align: center;
     color: #FFFFFF;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
-.sub-titulo-rodape {
+#sub-titulo-rodape {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
-    letter-spacing: 3px;
-    margin-top: 10px;
+    letter-spacing: 0.1875rem;
+    margin-top: 0.625rem;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.25rem;
+    }
+
+    #sub-titulo {
+        font-size: 0.875rem;
+        text-align: center;
+    }
+
+    .div-main {
+        width: auto;
+        height: auto;
+
+    }
+
+    #titulo-sobre {
+        font-size: 1.25rem;
+    }
+
+    p {
+        width: auto;
+        padding: 0.625rem;
+        font-size: 1rem;
+    }
+
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.25rem;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.25rem;
+    }
+
+    .div-rodape {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.25rem;
+    }
+
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 0.875rem;
+        padding-bottom: 0.625rem;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 800px) {
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.875rem;
+    }
+
+    .div-main{
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-sobre {
+        font-size: 1.875rem;
+    }
+    
+    p {
+        width: auto;
+        padding: 0.625rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.875rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.875rem;
+    }
+
+    .div-rodape {
+        width: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.125rem;
+    }
 }
