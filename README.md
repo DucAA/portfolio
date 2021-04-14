@@ -1,7 +1,7 @@
 <h1 align="center">:bookmark_tabs: Meu Portfólio</h1>
 
 <h1 align="center">
-<img src="https://github.com/DucAA/portfolio/blob/master/screenshots/Screenshot_01.png" width="400px">
+<img src="https://github.com/DucAA/portfolio/blob/master/screenshots/Screenshot_01.png" width="700px">
 </h1>
 
 <h3>:hammer_and_wrench: Tecnologias</h3>
