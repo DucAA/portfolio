@@ -2,7 +2,7 @@
 
 .div-principal-header {
     background-color: #1f2125;
-    width: 67.25rem;
+    width: auto;
     height: 32.19rem;
     background-repeat: no-repeat;
     display: flex;
@@ -32,8 +32,8 @@
 
 .div-main {
     background-color: #122954;
-    width: 67.25rem;
-    height: 32.19rem;
+    width: auto;
+    height: auto;
 }
 
 #titulo-sobre {
@@ -52,13 +52,14 @@ p {
     font-weight: 500;
     font-size: 1.125rem;
     margin-left: 30%;
-    width: 32.5rem;
+    padding: 0.625rem;
+    width: auto;
     color: #FFFFFF;
 }
 
 
 .sobre-mim-Paragrafo {
-    padding-top: 0.9375rem;
+    padding-top: 0.625rem;
 
 }
 
@@ -75,7 +76,7 @@ p {
 
 .div-main-two {
     background-color: #537c96;
-    width: 67.25rem;
+    width: auto;
     height: 32.19rem;
 }
 
@@ -110,8 +111,8 @@ p {
 
 .div-main-three{
     background-color: #5e5ca1;
-    width: 67.25rem;
-    height: 37.5rem;
+    width: auto;
+    height: auto;
 }
 
 #titulo-projetos {
@@ -148,8 +149,8 @@ p {
 
 .div-rodape {
     background-color: #96a0ac;
-    width: 67.25rem;
-    height: 6.25rem;
+    width: auto;
+    height: auto;
 }
 
 .div-rodape-two {
@@ -195,7 +196,6 @@ p {
     .div-main {
         width: auto;
         height: auto;
-
     }
 
     #titulo-sobre {
@@ -207,7 +207,6 @@ p {
         padding: 0.625rem;
         font-size: 1rem;
     }
-
 
     .div-main-two {
         width: 100%;
@@ -228,6 +227,71 @@ p {
 
     #titulo-projetos {
         font-size: 1.25rem;
+    }
+
+    .div-rodape {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.25rem;
+    }
+
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 0.875rem;
+        padding-bottom: 0.625rem;
+    }
+}
+
+@media screen and  (max-width: 481px) and (max-width: 767px){
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.563rem;
+    }
+
+    #sub-titulo {
+        font-size: 1rem;
+    }
+
+    .div-main {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-sobre {
+        font-size: 1.563rem;
+    }
+
+    p {
+        width: auto;
+        padding: 0.625rem;
+        font-size: 1rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.563rem;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.563rem;
     }
 
     .div-rodape {
@@ -293,4 +357,218 @@ p {
     #titulo-rodape {
         font-size: 1.125rem;
     }
+}
+
+@media screen and (min-width: 768px) and (min-width: 1024px){
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.875rem;
+    }
+
+    .div-main{
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-sobre {
+        font-size: 1.875rem;
+    }
+    
+    p {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.875rem;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.875rem;
+    }
+
+    .div-rodape {
+        width: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.125rem;
+    }
+
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.875rem;
+    }
+
+    .div-main{
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-sobre {
+        font-size: 1.875rem;
+    }
+    
+    p {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.875rem;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.875rem;
+    }
+
+    .div-rodape {
+        width: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1280px) {
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.875rem;
+    }
+
+    .div-main{
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-sobre {
+        font-size: 1.875rem;
+    }
+    
+    p {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.875rem;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.875rem;
+    }
+
+    .div-rodape {
+        width: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.125rem;
+    }
+}
+
+@media screen and  (min-width: 1281px) {
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal {
+        font-size: 1.875rem;
+    }
+
+    .div-main{
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-sobre {
+        font-size: 1.875rem;
+    }
+    
+    p {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #titulo-habilidades {
+        font-size: 1.875rem;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-main-three {
+        width: auto;
+        height: auto;
+    }
+
+    #titulo-projetos {
+        font-size: 1.875rem;
+    }
+
+    .div-rodape {
+        width: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.125rem;
+    }
+
 }
