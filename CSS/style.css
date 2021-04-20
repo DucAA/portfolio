@@ -348,7 +348,7 @@ p {
     }
 
     #titulo-principal, #titulo-sobre, #titulo-habilidades,  #titulo-projetos {
-        font-size: 1.875rem;
+        font-size: 3.875rem;
     }
 
     .div-main, .div-main-three {
@@ -359,7 +359,7 @@ p {
     p {
         width: auto;
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .div-main-two {
@@ -367,7 +367,7 @@ p {
     }
 
     #sobre-minhas-habilidades {
-        font-size: 1rem;
+        font-size: 3rem;
     }
 
     .div-rodape {
@@ -375,12 +375,12 @@ p {
     }
 
     #titulo-rodape {
-        font-size: 1.125rem;
+        font-size: 3rem;
     }
 
     #sub-titulo-rodape {
         text-align: center;
-        font-size: 1rem;
+        font-size: 3rem;
         padding-bottom: 0.625rem;
     }
 
