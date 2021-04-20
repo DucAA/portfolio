@@ -25,6 +25,7 @@
 #sub-titulo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+    font-size: 1.25rem;
     color: #FFFFFF;
     letter-spacing: 0.1875rem;
     margin-top: 1.875rem;
@@ -185,11 +186,11 @@ p {
 
     #titulo-principal, #titulo-sobre, 
     #titulo-habilidades, #titulo-projetos, #titulo-rodape {
-        font-size: 1.25rem;
+        font-size: 1.875rem;
     }
 
     #sub-titulo {
-        font-size: 0.875rem;
+        font-size: 1.563rem;
         text-align: center;
     }
 
@@ -214,7 +215,7 @@ p {
 
     #sub-titulo-rodape {
         text-align: center;
-        font-size: 0.875rem;
+        font-size: 1rem;
         padding-bottom: 0.625rem;
     }
 }
@@ -253,7 +254,7 @@ p {
 
     #sub-titulo-rodape {
         text-align: center;
-        font-size: 0.875rem;
+        font-size: 1rem;
         padding-bottom: 0.625rem;
     }
 }
@@ -287,6 +288,54 @@ p {
 
     #titulo-rodape {
         font-size: 1.125rem;
+    }
+
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 0.625rem;
+    }
+}
+
+@media screen and (max-width: 750px) and (max-width: 1334px) {
+    .div-principal-header {
+        width: auto;
+    }
+
+    #titulo-principal, #titulo-sobre, #titulo-habilidades,  #titulo-projetos {
+        font-size: 1.875rem;
+    }
+
+    .div-main, .div-main-three {
+        width: auto;
+        height: auto;
+    }
+    
+    p {
+        width: auto;
+        padding: 1rem;
+    }
+
+    .div-main-two {
+        width: 100%;
+    }
+
+    #sobre-minhas-habilidades {
+        font-size: 1rem;
+    }
+
+    .div-rodape {
+        width: auto;
+    }
+
+    #titulo-rodape {
+        font-size: 1.125rem;
+    }
+
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 0.625rem;
     }
 }
 
@@ -325,6 +374,12 @@ p {
         font-size: 1.125rem;
     }
 
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 0.625rem;
+    }
+
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
@@ -360,6 +415,12 @@ p {
 
     #titulo-rodape {
         font-size: 1.125rem;
+    }
+
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 0.625rem;
     }
 }
 
@@ -398,4 +459,9 @@ p {
         font-size: 1.125rem;
     }
 
+    #sub-titulo-rodape {
+        text-align: center;
+        font-size: 1rem;
+        padding-bottom: 0.625rem;
+    }
 }
