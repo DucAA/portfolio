@@ -348,7 +348,11 @@ p {
     }
 
     #titulo-principal, #titulo-sobre, #titulo-habilidades,  #titulo-projetos {
-        font-size: 3.875rem;
+        font-size: 3rem;
+    }
+
+    #sub-titulo {
+        font-size: 2.25rem;
     }
 
     .div-main, .div-main-three {
@@ -359,28 +363,54 @@ p {
     p {
         width: auto;
         padding: 1rem;
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    #github-icon, #linkedin-icon {
+        width: 4rem;
+        height: 4rem;
+        padding: 1.25rem 0.625rem;
     }
 
     .div-main-two {
         width: 100%;
     }
 
+    #html-icon, #css-icon, #js-icon {
+        width: 4rem;
+        height: 4rem;
+        padding: 1.25rem 0.625rem;
+        
+    }
+
     #sobre-minhas-habilidades {
-        font-size: 3rem;
+        font-size: 2.5rem;
+    }
+
+    .cards-projetos {
+        width: 25rem;
+        height: 14.5rem;
+        margin: 0.625rem;
+        border-radius: 3%;
+        background-color: #1f2125;
+    }
+
+    .titulo-em-breve {
+        font-size: 2rem;
     }
 
     .div-rodape {
         width: auto;
+        height: auto;
     }
 
     #titulo-rodape {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 
     #sub-titulo-rodape {
         text-align: center;
-        font-size: 3rem;
+        font-size: 2rem;
         padding-bottom: 0.625rem;
     }
 
