@@ -363,13 +363,13 @@ p {
     
     p {
         width: auto;
-        padding: 1rem;
+        padding: 2rem;
         font-size: 2rem;
     }
 
     #github-icon, #linkedin-icon {
-        width: 4rem;
-        height: 4rem;
+        width: 6rem;
+        height: 6rem;
         padding: 1.25rem 0.625rem;
     }
 
@@ -378,10 +378,9 @@ p {
     }
 
     #html-icon, #css-icon, #js-icon {
-        width: 4rem;
-        height: 4rem;
-        padding: 1.25rem 0.625rem;
-        
+        width: 6rem;
+        height: 6rem;
+        padding: 1.25rem 0.625rem;     
     }
 
     #sobre-minhas-habilidades {
@@ -389,11 +388,11 @@ p {
     }
 
     .cards-projetos {
-        width: 25rem;
-        height: 14.5rem;
-        margin: 0.625rem;
-        border-radius: 3%;
-        background-color: #1f2125;
+        background-color: #ffffff;
+    }
+
+    .titulo-em-breve {
+        color: #1f2125;
     }
 
     .titulo-em-breve {
