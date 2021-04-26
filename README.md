@@ -4,7 +4,7 @@
 <img src="https://github.com/DucAA/portfolio/blob/master/screenshots/Screenshot_01.png" width="700px">
 </h1>
 
-<a href="https://eduardodelroy.netlify.app/"><a>
+<a href="https://eduardodelroy.netlify.app/">Meu Portfólio<a>
 
 <h3>:hammer_and_wrench: Tecnologias</h3>
 
