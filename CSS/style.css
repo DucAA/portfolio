@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap');
 
 .div-principal-header {
-    background-color: #1f2125;
+    background-color: #3646da;
+    background-image: linear-gradient(225deg, #3646da 0%, #4ba0a0 50%, #2B86C5 100%); 
     width: auto;
     height: 32.19rem;
     background-repeat: no-repeat;
@@ -19,20 +20,20 @@
     letter-spacing: 0.1875rem;
     justify-content: center;
     text-align: center;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #sub-titulo {
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-size: 1.25rem;
-    color: #FFFFFF;
+    color: #ffffff;
     letter-spacing: 0.1875rem;
     margin-top: 1.875rem;
 }
 
 .div-main {
-    background-color: #122954;
+    background-color: #1f2125;
     width: auto;
     height: auto;
 }
@@ -45,7 +46,7 @@
     font-size: 2.5rem;
     text-align: center;
     padding: 2.5rem 1.25rem;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 p {
@@ -55,7 +56,7 @@ p {
     text-align: center;
     padding: 0.625rem;
     width: auto;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 
@@ -75,9 +76,9 @@ p {
 }
 
 .div-main-two {
-    background-color: #537c96;
+    background-color: #1f2125;
     width: auto;
-    height: 32.19rem;
+    height: auto;
 }
 
 #titulo-habilidades {
@@ -88,7 +89,7 @@ p {
     font-size: 2.5rem;
     text-align: center;
     padding: 2.5rem 1.25rem;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 #sobre-minhas-habilidades {
@@ -107,11 +108,10 @@ p {
     width: 2rem;
     height: 2rem;
     padding: 1.25rem 0.625rem;
-    
 }
 
 .div-main-three{
-    background-color: #5e5ca1;
+    background-color: #1f2125;
     width: auto;
     height: auto;
 }
@@ -124,7 +124,7 @@ p {
     font-size: 2.5rem;
     text-align: center;
     padding: 2.5rem 1.25rem;
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .cards {
@@ -138,18 +138,19 @@ p {
     height: 12.5rem;
     margin: 0.625rem;
     border-radius: 3%;
-    background-color: #1f2125;
+    background-color: #ffffff;
 }
 
 .titulo-em-breve {
     font-family: 'Notable', sans-serif;
     text-align: center;
     margin-top: 25%;
-    color: #FFFFFF;
+    color: #1f2125;
 }
 
 .div-rodape {
-    background-color: #96a0ac;
+    background-color: #3646da;
+    background-image: linear-gradient(225deg, #3646da 0%, #4ba0a0 50%, #2B86C5 100%);
     width: auto;
     height: 5rem;
 }
@@ -305,7 +306,7 @@ p {
     }
 
     #titulo-principal, #titulo-sobre, #titulo-habilidades,  #titulo-projetos {
-        font-size: 1.875rem;
+        font-size: 3rem;
     }
 
     .div-main, .div-main-three {
@@ -316,15 +317,15 @@ p {
     p {
         width: auto;
         padding: 1rem;
-        font-size: 1rem;
+        font-size: 2rem;
     }
-
+ 
     .div-main-two {
         width: 100%;
     }
 
     #sobre-minhas-habilidades {
-        font-size: 1rem;
+        font-size: 2rem;
     }
 
     .div-rodape {
@@ -332,12 +333,12 @@ p {
     }
 
     #titulo-rodape {
-        font-size: 1.125rem;
+        font-size: 2rem;
     }
 
     #sub-titulo-rodape {
         text-align: center;
-        font-size: 1rem;
+        font-size: 2rem;
         padding-bottom: 0.625rem;
     }
 }
@@ -363,7 +364,7 @@ p {
     p {
         width: auto;
         padding: 1rem;
-        font-size: 2.25rem;
+        font-size: 2rem;
     }
 
     #github-icon, #linkedin-icon {
@@ -384,7 +385,7 @@ p {
     }
 
     #sobre-minhas-habilidades {
-        font-size: 2.5rem;
+        font-size: 2rem;
     }
 
     .cards-projetos {
